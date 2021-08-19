@@ -5,6 +5,7 @@
     margin-top: 20px;
     border: 1px solid black;
     padding: 20px 50px;
+    border-radius: 20px;
 }
 .block_list.programs .block_list__li{
     display: -ms-grid;
@@ -59,6 +60,9 @@
 @media screen and (max-width: 768px){
     .block_list{
         padding: 16px 30px;
+        border-radius: 15px;
+        height: 500px;
+        overflow: scroll;
     }
     .block_list.programs .block_list__li{
         grid-template-columns: auto;
@@ -67,6 +71,7 @@
     }
     .block__title{
         font-size: 20px;
+        height: 70px;
     }
     .block_list__li{
         word-break: break-word;
@@ -83,5 +88,8 @@
     .block_list__item.channels.active:after{
         top: 5px;
         transform: translate(0,0);
+    }
+    .block_list.programs{
+        padding: 15px;
     }
 }

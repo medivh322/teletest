@@ -1,11 +1,7 @@
-import { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { API_PROGRAMS } from "../../constants";
-import { getPrograms } from "../../redux/actions_creators";
+import { useSelector } from "react-redux";
 
 function ChannelProgram(){
     const programs = useSelector(store => store.programs);
-    const dispatch = useDispatch();
 
     function programsGroup(date, duration){
         let a = new Date().getTime();
