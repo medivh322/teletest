@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/teletest/static/css/main.41124eb9.chunk.css",
+    "main.js": "/teletest/static/js/main.d8be5676.chunk.js",
+    "main.js.map": "/teletest/static/js/main.d8be5676.chunk.js.map",
+    "runtime-main.js": "/teletest/static/js/runtime-main.636f5d9e.js",
+    "runtime-main.js.map": "/teletest/static/js/runtime-main.636f5d9e.js.map",
+    "static/js/2.6287254d.chunk.js": "/teletest/static/js/2.6287254d.chunk.js",
+    "static/js/2.6287254d.chunk.js.map": "/teletest/static/js/2.6287254d.chunk.js.map",
+    "static/js/3.b04a4ddd.chunk.js": "/teletest/static/js/3.b04a4ddd.chunk.js",
+    "static/js/3.b04a4ddd.chunk.js.map": "/teletest/static/js/3.b04a4ddd.chunk.js.map",
+    "index.html": "/teletest/index.html",
+    "static/css/main.41124eb9.chunk.css.map": "/teletest/static/css/main.41124eb9.chunk.css.map",
+    "static/js/2.6287254d.chunk.js.LICENSE.txt": "/teletest/static/js/2.6287254d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.636f5d9e.js",
+    "static/js/2.6287254d.chunk.js",
+    "static/css/main.41124eb9.chunk.css",
+    "static/js/main.d8be5676.chunk.js"
+  ]
+}
