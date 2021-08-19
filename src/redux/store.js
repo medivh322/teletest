@@ -23,9 +23,7 @@ function telereduce(state = initialState, action) {
 
 const sagaMiddleware = createSagaMiddleware();
 
-const store = createStore(telereduce, window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__(
-    applyMiddleware(sagaMiddleware)
-));
+const store = createStore(telereduce, applyMiddleware(sagaMiddleware));
 
 sagaMiddleware.run(rootSaga);
 
