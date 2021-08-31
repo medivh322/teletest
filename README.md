@@ -1,3 +1,5 @@
+Деплой приложения - https://medivh322.github.io/teletest/
+
 Инструкция по запуску приложения:
 
 1)  Создать папку и клонировать репозиторий - git clone https://github.com/medivh322/teletest.git
